@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    div {
+    background: lightsalmon;
+    width: 150px;
+    height: 100px;
+    transform-origin: right top;
+    }
+    div:hover {
+    transform: rotate(90deg);
+    }
+    .thing {
+
+/* The default, as in, you get this without defining anything */
+transition-timing-function: ease;
+
+/* Also the same as */
+transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+}
+</style>
+</head>
+<body>
+    <nav>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+    </nav>
+<div></div>
+</body>
+</html>
